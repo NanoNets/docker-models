@@ -8,4 +8,17 @@ https://github.com/veggiemonk/awesome-docker#what-is-docker
 
 ## Why Docker + DL
 
+`As a result, IT can ship faster and run the same app, unchanged, on laptops, data center VMs, and any cloud.`
+Package once, run anywhere is why docker is the best suited tool. If you've ever setup Tensorflow or any other tool you'll remember the pain it is to install all the drivers and ensure compatibility with your GPU.
+
+
 ## How to Dockerize
+
+# Install Docker
+
+# Build Docker
+
+# Push to regsitry
+
+## Run
+
