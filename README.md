@@ -14,11 +14,12 @@ Package once, run anywhere is why docker is the best suited tool. If you've ever
 
 ## How to Dockerize
 
-# Install Docker
+### Install Docker
 
-# Build Docker
+### Build Docker
 
-# Push to regsitry
+### Push to regsitry
 
 ## Run
 
+`docker run -p 8081:8080 docker.nanonets.com/gesture-model`
