@@ -14,9 +14,25 @@ Package once, run anywhere is why docker is the best suited tool. If you've ever
 
 ## How to Dockerize
 
+### Clone this Repo
+
 ### Install Docker
 
+#### Linux
+
+`curl -fsSL get.docker.com -o get-docker.sh && sudo sh get-docker.sh && rm get-docker.sh`
+
+#### Windows
+
+https://docs.docker.com/docker-for-windows/install/
+
+#### MacOS
+
+https://docs.docker.com/docker-for-mac/install/
+
 ### Build Docker
+
+`docker `
 
 ### Push to regsitry
 
