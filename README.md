@@ -23,11 +23,11 @@ https://docs.docker.com/docker-for-mac/install/
 
 ### 3. Build Docker
 
-`docker `
+`docker build -t face-model .`
 
 ## 4. Run
 
-`docker run -p 8081:8080 docker.nanonets.com/gesture-model`
+`docker run -p 8081:8080 gesture-model/face-model`
 
 ## 5. Predict
 
