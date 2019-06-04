@@ -14,9 +14,11 @@ Package once, run anywhere is why docker is the best suited tool. If you've ever
 
 ## How to Dockerize
 
-### Clone this Repo
+### 1. Clone this Repo
 
-### Install Docker
+`git clone https://github.com/NanoNets/docker-models.git`
+
+### 2. Install Docker
 
 #### Linux
 
@@ -30,12 +32,14 @@ https://docs.docker.com/docker-for-windows/install/
 
 https://docs.docker.com/docker-for-mac/install/
 
-### Build Docker
+### 3. Build Docker
 
 `docker `
 
-### Push to regsitry
-
-## Run
+## 4. Run
 
 `docker run -p 8081:8080 docker.nanonets.com/gesture-model`
+
+## 5. Predict
+
+`python camera.py`
