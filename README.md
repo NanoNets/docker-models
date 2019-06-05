@@ -5,7 +5,9 @@
 
 ### Step 1. Clone this Repo
 
-```git clone https://github.com/NanoNets/docker-models.git```
+```
+git clone https://github.com/NanoNets/docker-models.git
+```
 
 ### Step 2. Install Docker
 
@@ -23,12 +25,18 @@
 
 ### 3. Build Docker
 
-```docker build -t face-model .```
+```
+docker build -t face-model .
+```
 
-## 4. Run
+### 4. Run
 
-```docker run -p 5000:5000 face-model```
+```
+docker run -p 5000:5000 face-model
+```
 
-## 5. Predict
+### 5. Predict
 
-```python camera.py```
+```
+python camera.py
+```
