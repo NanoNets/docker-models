@@ -23,19 +23,19 @@ git clone https://github.com/NanoNets/docker-models.git
 
 `https://docs.docker.com/docker-for-mac/install/`
 
-### 3. Build Docker
+### Step 3. Build Docker
 
 ```
 docker build -t face-model .
 ```
 
-### 4. Run
+### Step 4. Run Docker
 
 ```
 docker run -p 5000:5000 face-model
 ```
 
-### 5. Predict
+### Step 5. Predict Using Webcam
 
 ```
 python camera.py
