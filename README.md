@@ -27,7 +27,7 @@ https://docs.docker.com/docker-for-mac/install/
 
 ## 4. Run
 
-`docker run -p 8081:8080 gesture-model/face-model`
+`docker run -p 5000:5000 face-model`
 
 ## 5. Predict
 
