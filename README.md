@@ -3,11 +3,11 @@
 [![Watch the video](https://media.giphy.com/media/QUQo9nWGMVUiJpWVkD/giphy.gif)]
 ## How to Dockerize
 
-### 1. Clone this Repo
+### Step 1. Clone this Repo
 
-`git clone https://github.com/NanoNets/docker-models.git`
+```git clone https://github.com/NanoNets/docker-models.git```
 
-### 2. Install Docker
+### Step 2. Install Docker
 
 #### Linux
 
@@ -15,20 +15,20 @@
 
 #### Windows
 
-https://docs.docker.com/docker-for-windows/install/
+`https://docs.docker.com/docker-for-windows/install/`
 
 #### MacOS
 
-https://docs.docker.com/docker-for-mac/install/
+`https://docs.docker.com/docker-for-mac/install/`
 
 ### 3. Build Docker
 
-`docker build -t face-model .`
+```docker build -t face-model .```
 
 ## 4. Run
 
-`docker run -p 5000:5000 face-model`
+```docker run -p 5000:5000 face-model```
 
 ## 5. Predict
 
-`python camera.py`
+```python camera.py```
